@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PublicModule'
+  s.name             = 'YQSPublicModule'
   s.version          = '1.0.1'
   s.summary          = 'PublicModule组件'
 
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     适用于项目的PublicModule组件
                        DESC
 
-  s.homepage         = 'https://github.com/yeqingsong/PublicModule'
+  s.homepage         = 'https://github.com/yeqingsong/YQSPublicModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yeqingsong' => 'yeqs@zgjzd.cn' }
-  s.source           = { :git => 'https://github.com/yeqingsong/PublicModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yeqingsong/YQSPublicModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
