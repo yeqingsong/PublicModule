@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		358B344CE85F721668A10FDE /* PublicModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PublicModule.podspec; path = ../PublicModule.podspec; sourceTree = "<group>"; };
+		358B344CE85F721668A10FDE /* PublicModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PublicModule.podspec; path = ../PublicModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4998870A4DE880AB5D169B1D /* Pods-PublicModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PublicModule_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PublicModule_Example/Pods-PublicModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4BD89E90881A87B984A94B35 /* Pods-PublicModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PublicModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PublicModule_Tests/Pods-PublicModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		52F88F52DD98E43CA5DF0528 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -305,10 +305,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PublicModule_Example/Pods-PublicModule_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PublicModule/PublicModule.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PublicModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,40 @@
+{
+  "name": "PublicModule",
+  "version": "0.1.0",
+  "summary": "A short description of PublicModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yeqingsong/PublicModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yeqingsong": "yeqs@zgjzd.cn"
+  },
+  "source": {
+    "git": "https://github.com/yeqingsong/PublicModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "PeopleModel",
+      "source_files": "PublicModule/Classes/PeopleModel/**/*",
+      "dependencies": {
+        "SDWebImage": [
+
+        ]
+      }
+    },
+    {
+      "name": "ManModel",
+      "source_files": "PublicModule/Classes/ManModel/**/*"
+    },
+    {
+      "name": "WomenModel",
+      "source_files": "PublicModule/Classes/WomenModel/**/*"
+    }
+  ]
+}

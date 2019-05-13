@@ -1,0 +1,31 @@
+PODS:
+  - PublicModule (0.1.0):
+    - PublicModule/ManModel (= 0.1.0)
+    - PublicModule/PeopleModel (= 0.1.0)
+    - PublicModule/WomenModel (= 0.1.0)
+  - PublicModule/ManModel (0.1.0)
+  - PublicModule/PeopleModel (0.1.0):
+    - SDWebImage
+  - PublicModule/WomenModel (0.1.0)
+  - SDWebImage (5.0.1):
+    - SDWebImage/Core (= 5.0.1)
+  - SDWebImage/Core (5.0.1)
+
+DEPENDENCIES:
+  - PublicModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  PublicModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PublicModule: 969f9c5a26118082479fbd9fed6da0478364f84e
+  SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
+
+PODFILE CHECKSUM: 6f45bd4caf9e3e2056002a74af80b87562c8ba78
+
+COCOAPODS: 1.5.3
