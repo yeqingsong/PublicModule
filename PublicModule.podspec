@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PublicModule'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of PublicModule.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PublicModule/Classes/**/*'
+  # s.source_files = 'PublicModule/Classes/**/*'
   
   # s.resource_bundles = {
   #   'PublicModule' => ['PublicModule/Assets/*.png']
@@ -39,4 +39,20 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'PeopleModel' do |c|
+      c.source_files = 'PublicModule/Classes/PeopleModel/*.{h,m}'
+      c.dependency 'SDWebImage'
+  end
+  
+  s.subspec 'ManModel' do |c|
+      c.source_files = 'PublicModule/Classes/ManModel/*.{h,m}'
+  end
+  
+  s.subspec 'WomenModel' do |t|
+      t.source_files = 'PublicModule/Classes/WomenModel/*.{h,m}'
+  end
+  
+
+  
+  
 end
