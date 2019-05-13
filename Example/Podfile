@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PublicModule_Example' do
+  pod 'PublicModule', :path => '../'
+
+  target 'PublicModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
